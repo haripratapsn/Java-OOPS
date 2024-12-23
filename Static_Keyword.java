@@ -5,7 +5,6 @@ class Father4{
         System.out.println("This is a Parent Class");
     }
 }
-
 class Daughter4 extends Father4{
     char gender='F';
 
@@ -13,9 +12,7 @@ class Daughter4 extends Father4{
         System.out.println("This is child class");
     }
 }
-
 class Static{
-
     public static void main(String[] args){
         Daughter4 ob=new Daughter4();
         Father4.print();
